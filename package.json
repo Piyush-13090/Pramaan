@@ -1,0 +1,21 @@
+{
+  "name": "pramaan",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-based triage for GitHub issues and pull requests: extract technical claims, verify them against code, show the evidence.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.12"
+  }
+}

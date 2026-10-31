@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets: GITHUB_TOKEN lives in .env.local and must never be committed
+.env
+.env.*
+!.env.example
+
+# runtime scratch: cloned target repos, sandbox workdirs, job state
+.pramaan/
+tmp/
+
+# test and tooling output
+coverage/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
